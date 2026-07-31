@@ -1,0 +1,20 @@
+manifestVersion: 1
+name: axiom
+description: Axiom log querying
+
+tools:
+  entry: tools.ts
+  env:
+    - AXIOM_TOKEN
+
+tool-metadata:
+  - { toolName: search, namespace: logs, access: read }
+  - { toolName: query, namespace: logs, access: read }
+  - { toolName: tail, namespace: logs, access: read }
+  - { toolName: aggregate, namespace: logs, access: read }
+  - { toolName: context, namespace: logs, access: read }
+  - { toolName: services, namespace: logs, access: read }
+  - { toolName: datasets, namespace: logs, access: read }
+  - { toolName: network_search, namespace: logs, access: read }
+  - { toolName: network_stats, namespace: logs, access: read }
+  - { toolName: status, namespace: logs, access: read }
