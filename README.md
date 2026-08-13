@@ -1,4 +1,4 @@
-# Axiom (Barry Pack)
+# Axiom (Barry bag)
 
 Query and search [Axiom](https://axiom.co/) log datasets using APL.
 
