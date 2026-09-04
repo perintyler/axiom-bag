@@ -11,7 +11,7 @@ importers:
       '@axiomhq/js':
         specifier: 1.0.0
         version: 1.0.0
-      '@barry/tools':
+      '@barry-rocks/tools':
         specifier: link:../../barry/packages/tools
         version: link:../../barry/packages/tools
       zod:
