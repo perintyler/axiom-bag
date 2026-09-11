@@ -1,3 +1,9 @@
 node_modules/
 dist/
 *.tsbuildinfo
+
+# Terraform state holds values the API will not return again — and secrets.
+# Backed up out-of-band; never committed.
+*.tfstate
+*.tfstate.backup
+.terraform/

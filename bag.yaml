@@ -6,6 +6,12 @@ tools:
   env:
     - AXIOM_TOKEN
 
+infra:
+  provider: terraform
+  root: infra
+  variables:
+    - axiom_api_token
+
 tool-metadata:
   - { toolName: search, namespace: logs, access: read }
   - { toolName: query, namespace: logs, access: read }
